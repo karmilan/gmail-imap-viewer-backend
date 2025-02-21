@@ -19,7 +19,7 @@ This is the backend service for the Gmail IMAP Viewer application. It connects t
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/gmail-imap-viewer-backend.git
+   git clone https://github.com/karmilan/gmail-imap-viewer-backend.git
    ```
 2. Navigate to the project directory:
    ```sh
