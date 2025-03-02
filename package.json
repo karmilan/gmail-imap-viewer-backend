@@ -2,13 +2,24 @@
   "name": "gmail-imap-viewer-backend",
   "version": "1.0.0",
   "main": "src/app.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js"
   },
   "author": "karmilan",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "express": "^4.21.2"
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "google-auth-library": "^9.15.1",
+    "imapflow": "^1.0.181",
+    "node-imap": "^0.9.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
   }
 }
