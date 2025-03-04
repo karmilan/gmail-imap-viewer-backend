@@ -17,7 +17,10 @@
     "express-session": "^1.18.1",
     "google-auth-library": "^9.15.1",
     "imapflow": "^1.0.181",
-    "node-imap": "^0.9.6"
+    "mysql2": "^3.12.0",
+    "node-imap": "^0.9.6",
+    "sequelize": "^6.37.5",
+    "sequelize-cli": "^6.6.2"
   },
   "devDependencies": {
     "nodemon": "^3.1.9"
