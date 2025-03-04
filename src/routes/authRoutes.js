@@ -69,7 +69,7 @@ router.get("/emails", async (req, res) => {
         auth: {
             user: email,
             // pass: 'xxxxxxx',
-            accessToken: accessToken, // Use OAuth access token
+            accessToken: accessToken,
         },
     });
 
